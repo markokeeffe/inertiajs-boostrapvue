@@ -1,0 +1,1 @@
+# inertiajs-boostrapvue
