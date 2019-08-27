@@ -1,0 +1,32 @@
+{
+  "name": "laravel-frontend-presets/inertiajs-bootstrapvue",
+  "description": "A Laravel frontend preset using Inertia.js (inertia-vue) and BoostrapVue. With optional auth.",
+  "keywords": ["laravel", "preset", "inertiajs", "inertiajs-bootstrapvue", "bootstrap-vue"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mark O'Keeffe",
+      "email": "senshi001@gmail.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "^5.8",
+    "inertiajs/inertia-laravel": "^0.1"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelFrontendPresets\\InertiaJsBootstrapVuePreset\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelFrontendPresets\\InertiaJsBootstrapVuePreset\\InertiaJsBootstrapVuePresetServiceProvider"
+      ]
+    }
+  }
+}
